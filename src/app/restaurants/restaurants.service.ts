@@ -9,7 +9,7 @@ import { MEAT_API } from '../app.api';
 import { ErrorHandler } from '../app.error-handler';
 
 
-@Injectable()
+@Injectable()// para injeção de dependencias e acessar serviços http 
 export class RestaurantsService{
     
     constructor(private http: Http){
