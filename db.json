@@ -370,5 +370,26 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "name": "João Manoel",
+      "email": "joao@manoel.com",
+      "emailConfirmation": "joao@manoel.com",
+      "address": "Rua Barata Ribeiro",
+      "number": "222",
+      "optionalAddress": "912",
+      "paymentOption": "DEB",
+      "OrderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 1
+    }
+  ]
 }

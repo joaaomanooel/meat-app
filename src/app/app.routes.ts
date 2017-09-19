@@ -10,10 +10,10 @@ import { HomeComponent } from './home/home.component';
 
 export const ROUTES: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'order', component: OrderComponent},
-  {path: 'about', loadChildren: './about/about.module#AboutModule'},
   {path: 'restaurants', component: RestaurantsComponent},
   {path: 'order-sumary', component: OrderSumaryComponent},
+  {path: 'order', loadChildren: './order/order.module#OrderModule'},
+  {path: 'about', loadChildren: './about/about.module#AboutModule'},
   {path: 'restaurants/:id', component: RestaurantsDetailComponent,
     children: [
       {path: '', component: MenuComponent},
