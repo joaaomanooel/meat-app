@@ -3,6 +3,7 @@ import { NgModule, LOCALE_ID } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, PreloadAllModules } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 import { ShoppingCartComponent } from './restaurants-detail/shopping-cart/shopping-cart.component';
 import { RestaurantsDetailComponent } from './restaurants-detail/restaurants-detail.component';
@@ -43,6 +44,7 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     ReactiveFormsModule,
     SharedModule.forRoot(),
+    BrowserAnimationsModule,
     RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules})
   ],
   providers: [

@@ -9,12 +9,14 @@ import { RadioComponent } from './radio/radio.component';
 import { OrderService } from '../order/order.service';
 import { RestaurantsService } from '../restaurants/restaurants.service';
 import { ShoppingCartService } from '../restaurants-detail/shopping-cart/shopping-cart.service';
+import { SnackbarComponent } from './snackbar/snackbar.component';
 
 @NgModule({
     declarations:[
         InputComponent,
         RadioComponent,
-        RatingComponent
+        RatingComponent,
+        SnackbarComponent
     ],
     imports: [
         CommonModule,
@@ -22,12 +24,13 @@ import { ShoppingCartService } from '../restaurants-detail/shopping-cart/shoppin
         ReactiveFormsModule
     ],
     exports: [
+        ReactiveFormsModule,
+        SnackbarComponent,
+        RatingComponent,
         InputComponent,
         RadioComponent,
-        RatingComponent,
         CommonModule,
-        FormsModule,
-        ReactiveFormsModule
+        FormsModule
     ]
 })
 export class SharedModule{
