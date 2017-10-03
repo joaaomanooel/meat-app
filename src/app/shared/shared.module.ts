@@ -9,7 +9,8 @@ import { RadioComponent } from './radio/radio.component';
 import { OrderService } from '../order/order.service';
 import { RestaurantsService } from '../restaurants/restaurants.service';
 import { ShoppingCartService } from '../restaurants-detail/shopping-cart/shopping-cart.service';
-import { SnackbarComponent } from './snackbar/snackbar.component';
+import { SnackbarComponent } from './messages/snackbar/snackbar.component';
+import { NotificationService } from './messages/notification.service';
 
 @NgModule({
     declarations:[
@@ -40,7 +41,8 @@ export class SharedModule{
             providers: [
                 OrderService,
                 RestaurantsService,
-                ShoppingCartService
+                ShoppingCartService,
+                NotificationService
             ]
         }
     }
