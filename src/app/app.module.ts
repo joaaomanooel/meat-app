@@ -20,6 +20,7 @@ import { AppComponent } from './app.component';
 import { ROUTES } from './app.routes';
 
 import { SharedModule } from './shared/shared.module';
+import { NotFoundComponent } from './not-found/not-found.component';
 //import { CoreModule } from './core/core.module'; --> Obsoleto por causa da função forRot() do SharedModule.
 
 
@@ -35,7 +36,8 @@ import { SharedModule } from './shared/shared.module';
     HeaderComponent,
     HomeComponent,
     MenuComponent,
-    AppComponent    
+    AppComponent,
+    NotFoundComponent    
   ],
   imports: [
     //CoreModule, --> Obsoleto por causa da função forRot() do SharedModule.

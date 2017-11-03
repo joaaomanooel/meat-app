@@ -19,13 +19,10 @@ export class RestaurantComponent implements OnInit {
 
   restaurantState = 'ready';
 
-  @Input() restaurant : Restaurant[];
+  @Input() restaurant : Restaurant;
 
   constructor() { }
 
   ngOnInit() {
   }
-
-
-
 }
