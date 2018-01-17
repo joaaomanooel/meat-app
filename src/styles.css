@@ -261,3 +261,22 @@ body {
 .has-error-block {
   color: #dd4b39;
 }
+
+/* Barra de busca de restaurantes */
+.search-link{
+  cursor: pointer;
+  color: #555;
+}
+.search-link:hover{
+  cursor: pointer;
+  color: #dd4b39;
+}
+
+.search-bar{
+  opacity: 0;
+  max-height : 0px
+}
+
+/* .search-bar input{
+  border-radius: 20px;
+} */
