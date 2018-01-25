@@ -280,3 +280,7 @@ body {
 /* .search-bar input{
   border-radius: 20px;
 } */
+
+.searchValue{
+  margin-right: 10px;
+}
