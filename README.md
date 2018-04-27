@@ -4,7 +4,7 @@
 
 ### Clonando o Repositório
 
-`git clone https://github.com/cod3rcursos/meat-app-starter.git`
+`git clone https://github.com/joaaomanooel/meat-app.git`
 
 ### Instalando as Dependências
 
@@ -16,13 +16,9 @@
 
 ## 2. Iniciando o Backend
 
-### Instalando o json-server
-
-`npm install -g json-server`
-
 ### Iniciando o serviço (raiz da aplicação)
 
-`json-server db.json`
+`npm run json-server`
 
 ## Goodies
 
